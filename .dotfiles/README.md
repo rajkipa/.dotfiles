@@ -3,11 +3,11 @@
 
   The way I am trying to solve this problem is by creating two bare git repositories called
   * **.dotfiles** : To manage personal dotfiles configs which is going to live in my personal github account and can be synced to both personal and work computer
-  * **.workfiles** : To manage only work related dotfiles configs and they will be synced in my companies source control.
+  * **.workfiles** : To manage only work related dotfiles configs and they will be synced in my company's source control.
 
 
 ### First time setup
-1. Create a bare repository
+1. Create a bare repository ( only needed to first setup the bare dotfile repo)
 
 >mkdir $HOME/.dotfiles  
 >git init --bare $HOME/.dotfiles
