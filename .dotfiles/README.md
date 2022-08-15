@@ -36,6 +36,6 @@ To set up a new machine to use version controlled config files, all I need to do
 
 However, some programs create default config files, so this might fail if git finds an existing config file in $HOME. In that case, a simple solution is to clone to a temporary directory, and then delete it once its synced
 
->git clone --separate-git-dir=$HOME/.dotfiles https://github.com/rajkipa/.dotfiles.git tmpdotfiles
->rsync --recursive --verbose --exclude '.git' tmpdotfiles/ $HOME/
+>git clone --separate-git-dir=$HOME/.dotfiles https://github.com/rajkipa/.dotfiles.git tmpdotfiles. 
+>rsync --recursive --verbose --exclude '.git' tmpdotfiles/ $HOME/. 
 >rm -r tmpdotfiles
